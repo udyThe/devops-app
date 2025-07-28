@@ -12,7 +12,7 @@ const requestCounter = new client.Counter({
 
 app.get('/', (req, res) => {
   requestCounter.inc(); // Increment counter on each request
-  res.send('Hello from DevOps App!');
+  res.send('Hello from DevOps App!!!');
 });
 
 // Metrics endpoint for Prometheus to scrape
